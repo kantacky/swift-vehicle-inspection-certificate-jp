@@ -4,4 +4,7 @@
    <FileRef
       location = "group:">
    </FileRef>
+   <FileRef
+      location = "group:App/VehicleInspectionCertificateJP.xcodeproj">
+   </FileRef>
 </Workspace>
