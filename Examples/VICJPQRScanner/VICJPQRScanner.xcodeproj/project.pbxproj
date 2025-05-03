@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F1489BFD2DC63BDA002D00B3 /* VehicleInspectionCertificateJP in Frameworks */ = {isa = PBXBuildFile; productRef = F1489BFC2DC63BDA002D00B3 /* VehicleInspectionCertificateJP */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F1489BD32DC63B94002D00B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1489BFD2DC63BDA002D00B3 /* VehicleInspectionCertificateJP in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = VICJPQRScanner;
 			packageProductDependencies = (
+				F1489BFC2DC63BDA002D00B3 /* VehicleInspectionCertificateJP */,
 			);
 			productName = VICJPQRScanner;
 			productReference = F1489BC52DC63B93002D00B3 /* VICJPQRScanner.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = F1489BBC2DC63B93002D00B3;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F1489BFB2DC63BDA002D00B3 /* XCLocalSwiftPackageReference "../../../swift-vehicle-inspection-certificate-jp" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F1489BC62DC63B93002D00B3 /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		F1489BFB2DC63BDA002D00B3 /* XCLocalSwiftPackageReference "../../../swift-vehicle-inspection-certificate-jp" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../swift-vehicle-inspection-certificate-jp";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F1489BFC2DC63BDA002D00B3 /* VehicleInspectionCertificateJP */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VehicleInspectionCertificateJP;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F1489BBD2DC63B93002D00B3 /* Project object */;
 }
