@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		F1489BAF2DC639B2002D00B3 /* VehicleInspectionCertificateJP in Frameworks */ = {isa = PBXBuildFile; productRef = F1489BAE2DC639B2002D00B3 /* VehicleInspectionCertificateJP */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		F1489B6D2DC6388C002D00B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -56,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1489BAF2DC639B2002D00B3 /* VehicleInspectionCertificateJP in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +112,6 @@
 			);
 			name = VehicleInspectionCertificateJP;
 			packageProductDependencies = (
-				F1489BAE2DC639B2002D00B3 /* VehicleInspectionCertificateJP */,
 			);
 			productName = VehicleInspectionCertificateJP;
 			productReference = F1489B5F2DC6388A002D00B3 /* VehicleInspectionCertificateJP.app */;
@@ -201,9 +195,6 @@
 			);
 			mainGroup = F1489B562DC6388A002D00B3;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-				F1489BAD2DC639B1002D00B3 /* XCLocalSwiftPackageReference "../../swift-vehicle-inspection-certificate-jp" */,
-			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F1489B602DC6388A002D00B3 /* Products */;
 			projectDirPath = "";
@@ -567,20 +558,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCLocalSwiftPackageReference section */
-		F1489BAD2DC639B1002D00B3 /* XCLocalSwiftPackageReference "../../swift-vehicle-inspection-certificate-jp" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../../swift-vehicle-inspection-certificate-jp";
-		};
-/* End XCLocalSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		F1489BAE2DC639B2002D00B3 /* VehicleInspectionCertificateJP */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = VehicleInspectionCertificateJP;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F1489B572DC6388A002D00B3 /* Project object */;
 }
